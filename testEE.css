@@ -1,0 +1,53 @@
+@import url(//font.elice.io/EliceDigitalBaeum.css);
+
+nav > div {
+  width: 100%;
+  height: 20px;
+  background-color: gray;
+  color: azure;
+  padding: 20px;
+  border: 1px solid azure;
+}
+
+#image {
+  width: 640;
+  height: 480;
+  animation: rotate_image 6s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+html,
+body {
+  font-family: "Elice Digital Baeum", sans-serif;
+}
+
+footer {
+  background-color: gray;
+  color: azure;
+  height: 80px;
+}
+#data {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  align-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+main > .div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
